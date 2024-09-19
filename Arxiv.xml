@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>主题论文推荐</title>
+    <link>https://github.com/lionelsy/RSS</link>
+    <description>主题论文推荐</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 19 Sep 2024 06:57:13 +0000</lastBuildDate>
+    <item>
+      <title>An epiperimetric inequality for odd frequencies in the thin obstacle problem</title>
+      <link>http://arxiv.org/abs/2409.12110v1</link>
+      <description>&lt;p&gt;作者: ['Matteo Carducci', 'Bozhidar Velichkov']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **主要结果**：&lt;br&gt;   - 证明了薄障碍Weiss能量的表面周长不等式（epiperimetric inequality），特别是针对奇频率的情况。&lt;br&gt;&lt;br&gt;2. **应用于薄障碍问题**：&lt;br&gt;   - 将该不等式应用于具有一般 \( C^{k,\gamma} \) 障碍的薄障碍问题的解。&lt;br&gt;&lt;br&gt;3. **收敛速率的获得**：&lt;br&gt;   - 得到奇频率点的放大序列的收敛速率。&lt;br&gt;&lt;br&gt;4. **接触集的正则性**：&lt;br&gt;   - 讨论了对应接触集的层次结构的正则性。&lt;br&gt;&lt;br&gt;5. **恢复频率间隙**：&lt;br&gt;   - 恢复了Savin和Yu获得的奇频率的频率间隙结果。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: We prove an epiperimetric inequality for the thin obstacle Weiss' energy with
+odd frequencies and we apply it to solutions to the thin obstacle problem with
+general $C^{k,\gamma}$ obstacle. In particular, we obtain the rate of
+convergence of the blow-up sequences at points of odd frequencies and the
+regularity of the strata of the corresponding contact set. We also recover the
+frequency gap for odd frequencies obtained by Savin and Yu.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12110v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Uncertainty and Prediction Quality Estimation for Semantic Segmentation via Graph Neural Networks</title>
+      <link>http://arxiv.org/abs/2409.11373v1</link>
+      <description>&lt;p&gt;作者: ['Edgar Heinert', 'Stephan Tilgner', 'Timo Palm', 'Matthias Rottmann']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-17&lt;/p&gt;&lt;p&gt;评论: 11 pages, 3 figures, submitted to BMVC "Workshop on Robust
+  Recognition in the Open World" (https://rrow2024.github.io/call-for-papers)&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **深度神经网络的应用**：&lt;br&gt;   - 在安全关键应用（如汽车感知或医学成像）中使用深度神经网络（DNN）进行语义分割时，需要在运行时估计其性能，例如通过不确定性估计或预测质量估计。&lt;br&gt;&lt;br&gt;2. **以往研究的局限**：&lt;br&gt;   - 之前的研究主要在像素级别进行不确定性估计。&lt;br&gt;&lt;br&gt;3. **连接组件视角的研究**：&lt;br&gt;   - 采用连接组件（分段）视角的研究，尝试通过元分类和回归方法在对象级别估计不确定性和预测质量。&lt;br&gt;&lt;br&gt;4. **单独处理预测段**：&lt;br&gt;   - 在这些研究中，每个预测的分段被单独考虑，以估计其不确定性或预测质量。&lt;br&gt;&lt;br&gt;5. **邻近段的影响**：&lt;br&gt;   - 本研究探讨了邻近段可能提供的额外信息，以帮助判断给定预测段的高质量。&lt;br&gt;&lt;br&gt;6. **图神经网络的应用**：&lt;br&gt;   - 基于分段级别的不确定性指标，使用图神经网络（GNN）建模给定段的质量与其自身及邻近段指标之间的关系。&lt;br&gt;&lt;br&gt;7. **架构比较与性能提升**：&lt;br&gt;   - 比较了不同的GNN架构，并取得了显著的性能提升。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: When employing deep neural networks (DNNs) for semantic segmentation in
+safety-critical applications like automotive perception or medical imaging, it
+is important to estimate their performance at runtime, e.g. via uncertainty
+estimates or prediction quality estimates. Previous works mostly performed
+uncertainty estimation on pixel-level. In a line of research, a
+connected-component-wise (segment-wise) perspective was taken, approaching
+uncertainty estimation on an object-level by performing so-called meta
+classification and regression to estimate uncertainty and prediction quality,
+respectively. In those works, each predicted segment is considered individually
+to estimate its uncertainty or prediction quality. However, the neighboring
+segments may provide additional hints on whether a given predicted segment is
+of high quality, which we study in the present work. On the basis of
+uncertainty indicating metrics on segment-level, we use graph neural networks
+(GNNs) to model the relationship of a given segment's quality as a function of
+the given segment's metrics as well as those of its neighboring segments. We
+compare different GNN architectures and achieve a notable performance
+improvement.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.11373v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Controlled Study on Long Context Extension and Generalization in LLMs</title>
+      <link>http://arxiv.org/abs/2409.12181v1</link>
+      <description>&lt;p&gt;作者: ['Yi Lu', 'Jing Nathan Yan', 'Songlin Yang', 'Justin T. Chiu', 'Siyu Ren', 'Fei Yuan', 'Wenting Zhao', 'Zhiyong Wu', 'Alexander M. Rush']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **长文本理解的需求**：&lt;br&gt;   - 实现广泛的文本理解和上下文学习需要语言模型能够利用完整的文档上下文。&lt;br&gt;&lt;br&gt;2. **实现挑战**：&lt;br&gt;   - 直接训练长上下文模型面临实现上的挑战，因此提出了许多方法来扩展模型以处理长上下文。&lt;br&gt;&lt;br&gt;3. **比较困难**：&lt;br&gt;   - 由于数据和模型类别的差异，比较这些方法变得具有挑战性，导致在评估长上下文性能时存在不确定性。&lt;br&gt;&lt;br&gt;4. **标准化评估协议**：&lt;br&gt;   - 实施了一个受控的扩展方法协议，并进行标准化评估，使用一致的基础模型和扩展数据。&lt;br&gt;&lt;br&gt;5. **长上下文行为的洞察**：&lt;br&gt;   - 研究结果提供了对长上下文行为的几个重要见解：&lt;br&gt;     - **困惑度的重要性**：重申了困惑度在长上下文任务中的关键作用，作为通用性能指标。&lt;br&gt;     - **近似注意力方法的不足**：发现当前的近似注意力方法在长上下文任务中系统性表现不佳。&lt;br&gt;     - **精确微调的有效性**：确认基于精确微调的方法在其扩展范围内通常有效，但外推仍然具有挑战性。&lt;br&gt;&lt;br&gt;6. **开源资源**：&lt;br&gt;   - 所有代码库、模型和检查点将以开源方式提供，促进透明度并推动该领域的进一步研究。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='https://github.com/leooyii/lceg'&gt;https://github.com/leooyii/lceg&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Broad textual understanding and in-context learning require language models
+that utilize full document contexts. Due to the implementation challenges
+associated with directly training long-context models, many methods have been
+proposed for extending models to handle long contexts. However, owing to
+differences in data and model classes, it has been challenging to compare these
+approaches, leading to uncertainty as to how to evaluate long-context
+performance and whether it differs from standard evaluation. We implement a
+controlled protocol for extension methods with a standardized evaluation,
+utilizing consistent base models and extension data. Our study yields several
+insights into long-context behavior. First, we reaffirm the critical role of
+perplexity as a general-purpose performance indicator even in longer-context
+tasks. Second, we find that current approximate attention methods
+systematically underperform across long-context tasks. Finally, we confirm that
+exact fine-tuning based methods are generally effective within the range of
+their extension, whereas extrapolation remains challenging. All codebases,
+models, and checkpoints will be made available open-source, promoting
+transparency and facilitating further research in this critical area of AI
+development.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12181v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ergodic properties of infinite extension of symmetric interval exchange transformations</title>
+      <link>http://arxiv.org/abs/2409.12168v1</link>
+      <description>&lt;p&gt;作者: ['Przemysław Berk', 'Frank Trujillo', 'Hao Wu']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **主要结果**：&lt;br&gt;   - 证明了由函数 \( f(x) = a(x - 1/2) \) （其中 \( a \neq 0 \)）给出的偏斜乘积对于每个基底为对称的不变测度转移（IET）都是遍历的。&lt;br&gt;&lt;br&gt;2. **遍历扩展的完整表征**：&lt;br&gt;   - 这项工作完成了该家族中遍历扩展的完整表征。&lt;br&gt;&lt;br&gt;3. **独特遍历性假设**：&lt;br&gt;   - 在对IET的独特遍历性有一个额外的自然假设下，可以将 \( f \) 替换为任何具有非零跳跃总和的可微函数。&lt;br&gt;&lt;br&gt;4. **弱混合IET的考虑**：&lt;br&gt;   - 通过考虑弱混合的IET而不仅仅是遍历的IET，展示了由 \( f \) 给出的偏斜乘积具有无限的遍历指数。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: We prove that skew products with the cocycle given by the function
+$f(x)=a(x-1/2)$ with $a\neq 0$ are ergodic for every ergodic symmetric IET in
+the base, thus giving the full characterization of ergodic extensions in this
+family. Moreover, we prove that under an additional natural assumption of
+unique ergodicity on the IET, we can replace $f$ with any differentiable
+function with a non-zero sum of jumps. Finally, by considering weakly mixing
+IETs instead of just ergodic, we show that the skew products with cocycle given
+by $f$ have infinite ergodic index.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12168v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finetuning Language Models to Emit Linguistic Expressions of Uncertainty</title>
+      <link>http://arxiv.org/abs/2409.12180v1</link>
+      <description>&lt;p&gt;作者: ['Arslan Chaudhry', 'Sridhar Thiagarajan', 'Dilan Gorur']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **大语言模型的应用**：&lt;br&gt;   - 大语言模型（LLMs）越来越多地用于信息检索和决策任务。&lt;br&gt;&lt;br&gt;2. **信息生成的局限性**：&lt;br&gt;   - 尽管具有广泛的实用性，LLMs往往生成与现实世界事实相冲突的信息，其说服风格使得这些不准确的信息显得可信。&lt;br&gt;&lt;br&gt;3. **用户的信任挑战**：&lt;br&gt;   - 用户在LLMs表达的信心与其预测的准确性之间难以保持一致，导致要么盲目信任所有输出，要么完全不信任其可靠性。&lt;br&gt;&lt;br&gt;4. **研究目标**：&lt;br&gt;   - 本研究探索在不确定性增强预测上进行监督微调，以开发能够生成不确定性语言表达的模型。&lt;br&gt;&lt;br&gt;5. **模型校准的测量**：&lt;br&gt;   - 具体而言，首先测量预训练模型的校准情况，然后对语言模型进行微调，以生成经过校准的不确定性语言表达。&lt;br&gt;&lt;br&gt;6. **实验验证**：&lt;br&gt;   - 通过在多种问答数据集上的实验，证明LLMs在评估其预测时具有良好的校准性。&lt;br&gt;&lt;br&gt;7. **微调效果**：&lt;br&gt;   - 基于模型自身信心的监督微调导致了良好的不确定性表达校准，特别是在单一声明答案的情况下。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Large language models (LLMs) are increasingly employed in information-seeking
+and decision-making tasks. Despite their broad utility, LLMs tend to generate
+information that conflicts with real-world facts, and their persuasive style
+can make these inaccuracies appear confident and convincing. As a result,
+end-users struggle to consistently align the confidence expressed by LLMs with
+the accuracy of their predictions, often leading to either blind trust in all
+outputs or a complete disregard for their reliability. In this work, we explore
+supervised finetuning on uncertainty-augmented predictions as a method to
+develop models that produce linguistic expressions of uncertainty.
+Specifically, we measure the calibration of pre-trained models and then
+fine-tune language models to generate calibrated linguistic expressions of
+uncertainty. Through experiments on various question-answering datasets, we
+demonstrate that LLMs are well-calibrated in assessing their predictions, and
+supervised finetuning based on the model's own confidence leads to
+well-calibrated expressions of uncertainty, particularly for single-claim
+answers.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12180v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Low-Redshift Lyman Continuum Survey: The Roles of Stellar Feedback and ISM Geometry in LyC Escape</title>
+      <link>http://arxiv.org/abs/2409.12118v1</link>
+      <description>&lt;p&gt;作者: ['Sophia R. Flury', 'Anne E. Jaskot', 'Alberto Saldana-Lopez', 'M. S. Oey', 'John Chisholm', 'Ricardo Amorín', 'Omkar Bait', 'Sanchayeeta Borthakur', 'Cody Carr', 'Henry C. Ferguson', 'Mauro Giavalisco', 'Matthew Hayes', 'Timothy Heckman', 'Alaina Henry', 'Zhiyuan Ji', 'Lena Komarova', 'Floriane Leclercq', 'Alexandra Le Reste', 'Stephan McCandliss', 'Rui Marques-Chaves', 'Göran Östlin', 'Laura Pentericci', 'Swara Ravindranath', 'Michael Rutkowski', 'Claudia Scarlata', 'Daniel Schaerer', 'Trinh Thuan', 'Maxime Trebitsch', 'Eros Vanzella', 'Anne Verhamme', 'Bingjie Wang', 'Gábor Worseck', 'Xinfeng Xu']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: Submitted to AAS publications, 42 pages, 25 figures&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **宇宙再电离的基本问题**：&lt;br&gt;   - 研究宇宙在 $z\sim6$ 之后的再电离起源和机制是宇宙学的基本问题之一。&lt;br&gt;&lt;br&gt;2. **对局部星系的研究**：&lt;br&gt;   - 过去十年的许多研究集中在局部 ($z\sim0.3$) 星系上，这些星系能够泄漏电离辐射（莱曼连续谱或LyC）。&lt;br&gt;&lt;br&gt;3. **数据质量的限制**：&lt;br&gt;   - 视线效应和数据质量限制了对LyC逃逸性质的深入理解。&lt;br&gt;&lt;br&gt;4. **HST/COS观测分析**：&lt;br&gt;   - 为了克服这些限制，分析了89个 $z\sim0.3$ 星系的LyC观测数据的堆叠样本。&lt;br&gt;&lt;br&gt;5. **恒星种群与中性ISM几何**：&lt;br&gt;   - 通过对连续谱的拟合，获得了关于基础恒星种群和中性星际介质（ISM）几何的信息。&lt;br&gt;&lt;br&gt;6. **LyC非检测结果**：&lt;br&gt;   - 发现大多数LyC非检测星系并未泄漏显著的LyC（$f_{esc}^{\rm LyC}&lt;1\%$），但也有特殊情况显示LyC逃逸分数 $f_{esc}^{\rm LyC$ 的空间变化。&lt;br&gt;&lt;br&gt;7. **年轻恒星的影响**：&lt;br&gt;   - 年轻于3百万年的恒星群会增加电离反馈，从而提高LyC逃逸的各向同性。&lt;br&gt;&lt;br&gt;8. **超新星的机械反馈**：&lt;br&gt;   - 8-10百万年恒星群的超新星机械反馈对LyC逃逸所需的各向异性气体分布至关重要。&lt;br&gt;&lt;br&gt;9. **高逃逸分数的条件**：&lt;br&gt;   - 尽管机械反馈对任何LyC逃逸都是必要的，但高 $f_{esc}^{\rm LyC}$ ($&gt;5\%$) 还需要年轻恒星和电离反馈的结合。&lt;br&gt;&lt;br&gt;10. **星形成的二阶段爆发**：&lt;br&gt;    - 二阶段星形成爆发可能有助于实现这一最佳LyC逃逸场景。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: One of the fundamental questions of cosmology is the origin and mechanism(s)
+responsible for the reionization of the Universe beyond $z\sim6$. To address
+this question, many studies over the past decade have focused on local
+($z\sim0.3$) galaxies which leak ionizing radiation (Lyman continuum or LyC).
+However, line-of-sight effects and data quality have prohibited deeper insight
+into the nature of LyC escape. To circumvent these limitations, we analyze
+stacks of a consolidated sample of {\it HST}/COS observations of the LyC in 89
+galaxies at $z\sim0.3$. From fitting of the continuum, we obtain information
+about the underlying stellar populations and neutral ISM geometry. We find that
+most LyC non-detections are not leaking appreciable LyC ($f_{esc}^{\rm
+LyC}&lt;1$\%) but also that exceptional cases point to spatial variations in the
+LyC escape fraction $f_{esc}^{\rm LyC}$. Stellar populations younger than 3 Myr
+lead to an increase in ionizing feedback, which in turn increases the isotropy
+of LyC escape. Moreover, mechanical feedback from supernovae in 8-10 Myr
+stellar populations is important for anisotropic gas distributions needed for
+LyC escape. While mechanical feedback is necessary for any LyC escape, high
+$f_{esc}^{\rm LyC}$ ($&gt;5$\%) also requires a confluence of young stars and
+ionizing feedback. A two-stage burst of star formation could facilitate this
+optimal LyC escape scenario.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12118v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Phidias: A Generative Model for Creating 3D Content from Text, Image, and 3D Conditions with Reference-Augmented Diffusion</title>
+      <link>http://arxiv.org/abs/2409.11406v1</link>
+      <description>&lt;p&gt;作者: ['Zhenwei Wang', 'Tengfei Wang', 'Zexin He', 'Gerhard Hancke', 'Ziwei Liu', 'Rynson W. H. Lau']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-17&lt;/p&gt;&lt;p&gt;评论: Project page: https://RAG-3D.github.io/&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **3D建模中的现有模型使用**：&lt;br&gt;   - 在3D建模中，设计师经常使用现有的3D模型作为参考，以创建新的模型。&lt;br&gt;&lt;br&gt;2. **Phidias的开发**：&lt;br&gt;   - 这种做法促使了Phidias的开发，这是一种新颖的生成模型，利用扩散技术进行参考增强的3D生成。&lt;br&gt;&lt;br&gt;3. **生成过程的指导**：&lt;br&gt;   - 该方法通过利用检索到的或用户提供的3D参考模型来指导生成过程，从而提高生成质量、泛化能力和可控性。&lt;br&gt;&lt;br&gt;4. **模型的三大关键组件**：&lt;br&gt;   - **Meta-ControlNet**：动态调节条件强度。&lt;br&gt;   - **动态参考路由**：减轻输入图像与3D参考之间的错位。&lt;br&gt;   - **自我参考增强**：支持自监督训练，采用渐进式课程。&lt;br&gt;&lt;br&gt;5. **性能提升**：&lt;br&gt;   - 这些设计共同导致了相对于现有方法的显著改进。&lt;br&gt;&lt;br&gt;6. **统一框架的建立**：&lt;br&gt;   - Phidias建立了一个统一的3D生成框架，能够使用文本、图像和3D条件进行生成，具有多种应用潜力。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: In 3D modeling, designers often use an existing 3D model as a reference to
+create new ones. This practice has inspired the development of Phidias, a novel
+generative model that uses diffusion for reference-augmented 3D generation.
+Given an image, our method leverages a retrieved or user-provided 3D reference
+model to guide the generation process, thereby enhancing the generation
+quality, generalization ability, and controllability. Our model integrates
+three key components: 1) meta-ControlNet that dynamically modulates the
+conditioning strength, 2) dynamic reference routing that mitigates misalignment
+between the input image and 3D reference, and 3) self-reference augmentations
+that enable self-supervised training with a progressive curriculum.
+Collectively, these designs result in a clear improvement over existing
+methods. Phidias establishes a unified framework for 3D generation using text,
+image, and 3D conditions with versatile applications.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.11406v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>SPECTER: An Instrument Concept for CMB Spectral Distortion Measurements with Enhanced Sensitivity</title>
+      <link>http://arxiv.org/abs/2409.12188v1</link>
+      <description>&lt;p&gt;作者: ['Alina Sabyr', 'Carlos Sierra', 'J. Colin Hill', 'Jeffrey J. McMahon']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: 26 pages, 12 figures&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **宇宙微波背景辐射（CMB）能量谱的偏差**：&lt;br&gt;   - CMB能量谱偏离完美黑体的情况能够探测广泛的物理现象，包括原始宇宙中的基本物理（μ-扭曲）和晚期重子反馈过程（y-扭曲）。&lt;br&gt;&lt;br&gt;2. **y-扭曲的探测**：&lt;br&gt;   - y-扭曲可以通过适度提高灵敏度来检测，相比于COBE/FIRAS的灵敏度有所提升。&lt;br&gt;&lt;br&gt;3. **μ-扭曲的挑战**：&lt;br&gt;   - 预测的μ-扭曲大约小两个数量级，需要显著的灵敏度提升，同时前景干扰是一个严重障碍。&lt;br&gt;&lt;br&gt;4. **μ-扭曲的主要贡献**：&lt;br&gt;   - 在标准模型中，μ的主要贡献来自于通过Silk阻尼注入的能量，敏感于波数约为 $k \approx 1-10^{4}$ Mpc$^{-1}$ 的原始功率谱。&lt;br&gt;&lt;br&gt;5. **新仪器概念SPECTER**：&lt;br&gt;   - 提出了新仪器SPECTER，旨在稳健地检测μ-扭曲。该仪器技术与LiteBIRD相似，但具有绝对温度校准系统。&lt;br&gt;&lt;br&gt;6. **Fisher方法优化配置**：&lt;br&gt;   - 使用Fisher方法优化仪器配置，专注于μ的探测，同时有效地边际化前景污染物。&lt;br&gt;&lt;br&gt;7. **灵活的频段设置**：&lt;br&gt;   - 与基于傅里叶变换光谱仪的设计不同，SPECTER允许独立设置各个频段及其灵敏度，提供了显著的灵活性。&lt;br&gt;&lt;br&gt;8. **预测探测能力**：&lt;br&gt;   - 预计SPECTER在前景边际化后，可以以约5σ（10σ）的置信度观察到ΛCDM预测的μ-扭曲，假设观察时间为1年（4年），对应的任务持续时间为2年（8年）。&lt;br&gt;&lt;br&gt;9. **优化配置细节**：&lt;br&gt;   - 优化配置包括16个频段，覆盖1-2000 GHz，在150 GHz处具有度量级的角分辨率，共1046个探测器。&lt;br&gt;&lt;br&gt;10. **y-扭曲的测量**：&lt;br&gt;    - SPECTER还将以亚百分比精度测量y-扭曲，并以百分比级精度测量其相对论修正，为离子气体的总热能和平均温度提供严格约束。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Deviations of the cosmic microwave background (CMB) energy spectrum from a
+perfect blackbody uniquely probe a wide range of physics, ranging from
+fundamental physics in the primordial Universe ($\mu$-distortion) to late-time
+baryonic feedback processes (y-distortion). While the y-distortion can be
+detected with a moderate increase in sensitivity over that of COBE/FIRAS, the
+$\Lambda$CDM-predicted $\mu$-distortion is roughly two orders of magnitude
+smaller and requires substantial improvements, with foregrounds presenting a
+serious obstacle. Within the standard model, the dominant contribution to $\mu$
+arises from energy injected via Silk damping, yielding sensitivity to the
+primordial power spectrum at wavenumbers $k \approx 1-10^{4}$ Mpc$^{-1}$. Here,
+we present a new instrument concept, SPECTER, with the goal of robustly
+detecting $\mu$. The instrument technology is similar to that of LiteBIRD, but
+with an absolute temperature calibration system. Using a Fisher approach, we
+optimize the instrument's configuration to target $\mu$ while robustly
+marginalizing over foreground contaminants. Unlike
+Fourier-transform-spectrometer-based designs, the specific bands and their
+individual sensitivities can be independently set in this instrument, allowing
+significant flexibility. We forecast SPECTER to observe the
+$\Lambda$CDM-predicted $\mu$-distortion at $\approx 5\sigma$ (10$\sigma$)
+assuming an observation time of 1 (4) year(s) (corresponding to mission
+duration of 2 (8) years), after foreground marginalization. Our optimized
+configuration includes 16 bands spanning 1-2000 GHz with degree-scale angular
+resolution at 150 GHz and 1046 total detectors. SPECTER will additionally
+measure the y-distortion at sub-percent precision and its relativistic
+correction at percent-level precision, yielding tight constraints on the total
+thermal energy and mean temperature of ionized gas.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12188v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution</title>
+      <link>http://arxiv.org/abs/2409.12191v1</link>
+      <description>&lt;p&gt;作者: ['Peng Wang', 'Shuai Bai', 'Sinan Tan', 'Shijie Wang', 'Zhihao Fan', 'Jinze Bai', 'Keqin Chen', 'Xuejing Liu', 'Jialin Wang', 'Wenbin Ge', 'Yang Fan', 'Kai Dang', 'Mengfei Du', 'Xuancheng Ren', 'Rui Men', 'Dayiheng Liu', 'Chang Zhou', 'Jingren Zhou', 'Junyang Lin']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: Code is available at https://github.com/QwenLM/Qwen2-VL. arXiv admin
+  note: text overlap with arXiv:2408.15262 by other authors&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **Qwen2-VL系列介绍**：&lt;br&gt;   - Qwen2-VL是对之前Qwen-VL模型的高级升级，重新定义了视觉处理中的传统预设分辨率方法。&lt;br&gt;&lt;br&gt;2. **动态分辨率机制**：&lt;br&gt;   - 引入了“Naive Dynamic Resolution”机制，使模型能够动态处理不同分辨率的图像，将其转化为不同数量的视觉标记。&lt;br&gt;&lt;br&gt;3. **视觉表现的提升**：&lt;br&gt;   - 这种方法使模型能够生成更高效、更准确的视觉表示，更加贴近人类的感知过程。&lt;br&gt;&lt;br&gt;4. **多模态旋转位置嵌入**：&lt;br&gt;   - 集成了“Multimodal Rotary Position Embedding (M-RoPE)”，有效融合文本、图像和视频的位置信息。&lt;br&gt;&lt;br&gt;5. **统一处理模式**：&lt;br&gt;   - 采用统一的处理范式来处理图像和视频，增强了模型的视觉感知能力。&lt;br&gt;&lt;br&gt;6. **大规模模型探索**：&lt;br&gt;   - 探索大型多模态模型的潜力，研究视觉语言模型的扩展规律。&lt;br&gt;&lt;br&gt;7. **模型规模与训练数据**：&lt;br&gt;   - 通过扩大模型规模（包括2B、8B和72B参数的版本）和训练数据量，Qwen2-VL系列实现了高度竞争的性能。&lt;br&gt;&lt;br&gt;8. **性能比较**：&lt;br&gt;   - 特别是Qwen2-VL-72B模型在各种多模态基准测试中表现出色，结果与领先模型如GPT-4o和Claude3.5-Sonnet相当，超越其他通用模型。&lt;br&gt;&lt;br&gt;9. **代码可用性**：&lt;br&gt;   - 相关代码可以在[GitHub](https://github.com/QwenLM/Qwen2-VL)上获取。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='https://github.com/qwenlm/qwen2-vl'&gt;https://github.com/qwenlm/qwen2-vl&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: We present the Qwen2-VL Series, an advanced upgrade of the previous Qwen-VL
+models that redefines the conventional predetermined-resolution approach in
+visual processing. Qwen2-VL introduces the Naive Dynamic Resolution mechanism,
+which enables the model to dynamically process images of varying resolutions
+into different numbers of visual tokens. This approach allows the model to
+generate more efficient and accurate visual representations, closely aligning
+with human perceptual processes. The model also integrates Multimodal Rotary
+Position Embedding (M-RoPE), facilitating the effective fusion of positional
+information across text, images, and videos. We employ a unified paradigm for
+processing both images and videos, enhancing the model's visual perception
+capabilities. To explore the potential of large multimodal models, Qwen2-VL
+investigates the scaling laws for large vision-language models (LVLMs). By
+scaling both the model size-with versions at 2B, 8B, and 72B parameters-and the
+amount of training data, the Qwen2-VL Series achieves highly competitive
+performance. Notably, the Qwen2-VL-72B model achieves results comparable to
+leading models such as GPT-4o and Claude3.5-Sonnet across various multimodal
+benchmarks, outperforming other generalist models. Code is available at
+\url{https://github.com/QwenLM/Qwen2-VL}.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12191v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-similar solutions of oscillatory reconnection: parameter study of magnetic field strength and background temperature</title>
+      <link>http://arxiv.org/abs/2409.12130v1</link>
+      <description>&lt;p&gt;作者: ['Luiz A. C. A. Schiavo', 'Gert J. J. Botha', 'James A. McLaughlin']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究主题**：&lt;br&gt;   - 研究聚焦于“振荡重连”（oscillatory reconnection），这是一种特定的时间依赖性重连，涉及零点的磁拓扑的周期性变化。&lt;br&gt;&lt;br&gt;2. **研究背景**：&lt;br&gt;   - 该机制已在多种磁场强度和配置、背景温度和密度下被报道。&lt;br&gt;&lt;br&gt;3. **现象观察**：&lt;br&gt;   - 所有研究均报告了零点电流密度的振荡，但观察到的周期、幅度和整体行为各异。&lt;br&gt;&lt;br&gt;4. **研究方法**：&lt;br&gt;   - 进行了一项参数研究，考察平衡磁场强度和初始背景温度，解决二维电阻磁流体动力学（MHD）方程，围绕磁X点进行分析。&lt;br&gt;&lt;br&gt;5. **参数空间引入**：&lt;br&gt;   - 引入内部能量与磁能比的参数空间，发现当该比率低于0.1时（表示磁主导环境或低β等离子体），可以得到自相似解。&lt;br&gt;&lt;br&gt;6. **自相似性表现**：&lt;br&gt;   - 在零点的电流密度振荡（包括幅度和周期）、欧姆加热以及重连喷流产生的温度中均可观察到自相似性。&lt;br&gt;&lt;br&gt;7. **前期研究的整合**：&lt;br&gt;   - 能量比的参数空间还使得能够将之前关于振荡重连机制的研究进行上下文化，并将不同研究整合为一个统一的理解。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Oscillatory reconnection is a specific type of time-dependent reconnection
+which involves periodic changes in the magnetic topology of a null point. The
+mechanism has been reported for a variety of magnetic field strengths and
+configurations, background temperatures and densities. All these studies report
+an oscillation in the current density at the null point, but also report a
+variety of periods, amplitudes and overall behaviors. We conduct a parametric
+study for equilibrium magnetic field strength and initial background
+temperature, solving 2D resistive MHD equations around a magnetic X-point. We
+introduce a parameter space for the ratio of internal-to-magnetic energy and
+find self-similar solutions for simulations where this ratio is below 0.1
+(which represents a magnetically-dominated environment or, equivalently, a
+low-beta plasma). Self-similarity can be seen in oscillations in the current
+density at the null (including amplitude and period), Ohmic heating and the
+temperature generated via reconnection jets. The parameter space of energy
+ratios also allows us to contextualize previous studies of the oscillatory
+reconnection mechanism and bring those different studies together into a single
+unified understanding.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12130v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>RoboMorph: In-Context Meta-Learning for Robot Dynamics Modeling</title>
+      <link>http://arxiv.org/abs/2409.11815v1</link>
+      <description>&lt;p&gt;作者: ['Manuel Bianchi Bazzi', 'Asad Ali Shahid', 'Christopher Agia', 'John Alora', 'Marco Forgione', 'Dario Piga', 'Francesco Braghin', 'Marco Pavone', 'Loris Roveda']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **深度学习的变革**：&lt;br&gt;   - 深度学习领域经历了显著变化，Transformer架构的广泛采用尤其在自然语言处理（NLP）领域。&lt;br&gt;&lt;br&gt;2. **物理应用的探索**：&lt;br&gt;   - 新的物理应用方向，如求解偏微分方程和图像视觉，已被探索。&lt;br&gt;&lt;br&gt;3. **机器人领域的挑战**：&lt;br&gt;   - 在机器人等高非线性领域，Transformer应用仍然稀少。&lt;br&gt;&lt;br&gt;4. **现有研究的局限**：&lt;br&gt;   - 尽管Transformers已用于提供机器人高层任务知识，但在系统识别方面的努力较少。&lt;br&gt;&lt;br&gt;5. **研究目标**：&lt;br&gt;   - 本文提出一种新方法，通过Transformer架构学习高维物理系统（如Franka机器人臂）的元动力学模型，无需事先了解系统的物理参数。&lt;br&gt;&lt;br&gt;6. **预测目标**：&lt;br&gt;   - 目标是根据每个关节的扭矩信号预测关心的量（末端执行器位置和关节位置）。&lt;br&gt;&lt;br&gt;7. **应用前景**：&lt;br&gt;   - 该预测可作为深度模型预测控制框架中的一个组件。&lt;br&gt;&lt;br&gt;8. **模型功能**：&lt;br&gt;   - 元模型建立扭矩与位置之间的关联，并预测完整轨迹的输出。&lt;br&gt;&lt;br&gt;9. **实证证据**：&lt;br&gt;   - 本研究提供了在上下文学习范式有效性的实证证据，暗示未来在无显式物理参数知识的情况下改进机器人系统动力学学习的可能性。&lt;br&gt;&lt;br&gt;10. **附加资源**：&lt;br&gt;    - 代码、视频和补充材料可在项目网站找到，链接为 [RoboMorph](https://sites.google.com/view/robomorph/)。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: The landscape of Deep Learning has experienced a major shift with the
+pervasive adoption of Transformer-based architectures, particularly in Natural
+Language Processing (NLP). Novel avenues for physical applications, such as
+solving Partial Differential Equations and Image Vision, have been explored.
+However, in challenging domains like robotics, where high non-linearity poses
+significant challenges, Transformer-based applications are scarce. While
+Transformers have been used to provide robots with knowledge about high-level
+tasks, few efforts have been made to perform system identification. This paper
+proposes a novel methodology to learn a meta-dynamical model of a
+high-dimensional physical system, such as the Franka robotic arm, using a
+Transformer-based architecture without prior knowledge of the system's physical
+parameters. The objective is to predict quantities of interest (end-effector
+pose and joint positions) given the torque signals for each joint. This
+prediction can be useful as a component for Deep Model Predictive Control
+frameworks in robotics. The meta-model establishes the correlation between
+torques and positions and predicts the output for the complete trajectory. This
+work provides empirical evidence of the efficacy of the in-context learning
+paradigm, suggesting future improvements in learning the dynamics of robotic
+systems without explicit knowledge of physical parameters. Code, videos, and
+supplementary materials can be found at project website. See
+https://sites.google.com/view/robomorph/&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.11815v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>multiPI-TransBTS: A Multi-Path Learning Framework for Brain Tumor Image Segmentation Based on Multi-Physical Information</title>
+      <link>http://arxiv.org/abs/2409.12167v1</link>
+      <description>&lt;p&gt;作者: ['Hongjun Zhu', 'Jiaohang Huang', 'Kuo Chen', 'Xuehui Ying', 'Ying Qian']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 脑肿瘤分割（BraTS）在临床诊断、治疗规划和肿瘤进展监测中至关重要。&lt;br&gt;   - 不同MRI模态中肿瘤的外观、大小和强度的变异性使得自动分割成为一项挑战。&lt;br&gt;&lt;br&gt;2. **模型提出**：&lt;br&gt;   - 本研究提出了一种新颖的基于变换器的框架，称为multiPI-TransBTS，旨在提高分割精度。&lt;br&gt;&lt;br&gt;3. **多物理信息集成**：&lt;br&gt;   - 该模型利用空间信息、语义信息和多模态成像数据，解决脑肿瘤特征中的固有异质性。&lt;br&gt;&lt;br&gt;4. **框架结构**：&lt;br&gt;   - multiPI-TransBTS框架包括一个编码器、自适应特征融合（AFF）模块和多源多尺度特征解码器。&lt;br&gt;&lt;br&gt;5. **编码器设计**：&lt;br&gt;   - 编码器采用多分支架构，分别从不同MRI序列中提取模态特定特征。&lt;br&gt;&lt;br&gt;6. **特征融合**：&lt;br&gt;   - AFF模块通过通道-wise和元素-wise注意机制融合来自多个源的信息，确保有效的特征重校准。&lt;br&gt;&lt;br&gt;7. **解码器功能**：&lt;br&gt;   - 解码器通过任务特定特征引入（TSFI）策略结合公共特征和任务特定特征，输出Whole Tumor（WT）、Tumor Core（TC）和Enhancing Tumor（ET）区域的准确分割结果。&lt;br&gt;&lt;br&gt;8. **性能评估**：&lt;br&gt;   - 在BraTS2019和BraTS2020数据集上的综合评估显示，multiPI-TransBTS优于现有最先进的方法。&lt;br&gt;&lt;br&gt;9. **评估指标**：&lt;br&gt;   - 模型在Dice系数、Hausdorff距离和敏感性得分等指标上表现更佳，突出其在应对BraTS挑战中的有效性。&lt;br&gt;&lt;br&gt;10. **未来研究方向**：&lt;br&gt;    - 结果还表明需要进一步探索ET分割任务中精确度与召回率之间的平衡。&lt;br&gt;&lt;br&gt;11. **临床意义**：&lt;br&gt;    - 提出的框架代表了BraTS领域的重要进展，可能对改善脑肿瘤患者的临床结果产生积极影响。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='https://github.com/JoetheReindeer/multiPI_TransBTS'&gt;https://github.com/JoetheReindeer/multiPI_TransBTS&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Brain Tumor Segmentation (BraTS) plays a critical role in clinical diagnosis,
+treatment planning, and monitoring the progression of brain tumors. However,
+due to the variability in tumor appearance, size, and intensity across
+different MRI modalities, automated segmentation remains a challenging task. In
+this study, we propose a novel Transformer-based framework, multiPI-TransBTS,
+which integrates multi-physical information to enhance segmentation accuracy.
+The model leverages spatial information, semantic information, and multi-modal
+imaging data, addressing the inherent heterogeneity in brain tumor
+characteristics. The multiPI-TransBTS framework consists of an encoder, an
+Adaptive Feature Fusion (AFF) module, and a multi-source, multi-scale feature
+decoder. The encoder incorporates a multi-branch architecture to separately
+extract modality-specific features from different MRI sequences. The AFF module
+fuses information from multiple sources using channel-wise and element-wise
+attention, ensuring effective feature recalibration. The decoder combines both
+common and task-specific features through a Task-Specific Feature Introduction
+(TSFI) strategy, producing accurate segmentation outputs for Whole Tumor (WT),
+Tumor Core (TC), and Enhancing Tumor (ET) regions. Comprehensive evaluations on
+the BraTS2019 and BraTS2020 datasets demonstrate the superiority of
+multiPI-TransBTS over the state-of-the-art methods. The model consistently
+achieves better Dice coefficients, Hausdorff distances, and Sensitivity scores,
+highlighting its effectiveness in addressing the BraTS challenges. Our results
+also indicate the need for further exploration of the balance between precision
+and recall in the ET segmentation task. The proposed framework represents a
+significant advancement in BraTS, with potential implications for improving
+clinical outcomes for brain tumor patients.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12167v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Massively Multi-Person 3D Human Motion Forecasting with Scene Context</title>
+      <link>http://arxiv.org/abs/2409.12189v1</link>
+      <description>&lt;p&gt;作者: ['Felix B Mueller', 'Julian Tanke', 'Juergen Gall']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: 14 pages, 6 figures&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 预测长期3D人类运动具有挑战性，因人类行为的随机性使得仅依赖输入序列生成逼真的动作变得困难。&lt;br&gt;&lt;br&gt;2. **场景信息的重要性**：&lt;br&gt;   - 场景环境的信息以及附近人物的运动可以显著助力生成过程。&lt;br&gt;&lt;br&gt;3. **模型提出**：&lt;br&gt;   - 提出了一个场景感知社交变换器模型（SAST），用于预测长期（10秒）的人类运动。&lt;br&gt;&lt;br&gt;4. **模型创新**：&lt;br&gt;   - 与以往模型不同，本方法能够建模场景中人数和物体的广泛变化互动。&lt;br&gt;&lt;br&gt;5. **架构设计**：&lt;br&gt;   - 结合时间卷积编码器-解码器架构与基于变换器的瓶颈，能够高效整合运动和场景信息。&lt;br&gt;&lt;br&gt;6. **运动分布建模**：&lt;br&gt;   - 使用去噪扩散模型来建模条件运动分布。&lt;br&gt;&lt;br&gt;7. **基准测试**：&lt;br&gt;   - 在“厨房中的人类”数据集上进行基准测试，该数据集包含1到16人和29到50个同时可见的物体。&lt;br&gt;&lt;br&gt;8. **性能评估**：&lt;br&gt;   - 在多个指标和用户研究中，我们的模型在逼真性和多样性方面优于其他方法。&lt;br&gt;&lt;br&gt;9. **代码获取**：&lt;br&gt;   - 相关代码可在GitHub上获得，链接为 [SAST](https://github.com/felixbmuller/SAST)。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Forecasting long-term 3D human motion is challenging: the stochasticity of
+human behavior makes it hard to generate realistic human motion from the input
+sequence alone. Information on the scene environment and the motion of nearby
+people can greatly aid the generation process. We propose a scene-aware social
+transformer model (SAST) to forecast long-term (10s) human motion motion.
+Unlike previous models, our approach can model interactions between both widely
+varying numbers of people and objects in a scene. We combine a temporal
+convolutional encoder-decoder architecture with a Transformer-based bottleneck
+that allows us to efficiently combine motion and scene information. We model
+the conditional motion distribution using denoising diffusion models. We
+benchmark our approach on the Humans in Kitchens dataset, which contains 1 to
+16 persons and 29 to 50 objects that are visible simultaneously. Our model
+outperforms other approaches in terms of realism and diversity on different
+metrics and in a user study. Code is available at
+https://github.com/felixbmuller/SAST.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12189v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Almost Sure Convergence of Linear Temporal Difference Learning with Arbitrary Features</title>
+      <link>http://arxiv.org/abs/2409.12135v1</link>
+      <description>&lt;p&gt;作者: ['Jiuqi Wang', 'Shangtong Zhang']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: 30 pages, 0 figures&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究主题**：&lt;br&gt;   - 本文研究了线性函数逼近的时序差分（TD）学习，即线性TD，这是一种经典且强大的强化学习预测算法。&lt;br&gt;&lt;br&gt;2. **收敛性理解**：&lt;br&gt;   - 线性TD几乎肯定会收敛到一个唯一的点，但传统上需要假设近似器使用的特征是线性独立的。&lt;br&gt;&lt;br&gt;3. **假设的局限**：&lt;br&gt;   - 线性独立的假设在许多实际场景中并不成立，因此存在局限性。&lt;br&gt;&lt;br&gt;4. **研究贡献**：&lt;br&gt;   - 本文首次证明了线性TD的几乎确定收敛性，而无需要求线性独立的特征，实际上对特征没有任何假设。&lt;br&gt;&lt;br&gt;5. **收敛结果**：&lt;br&gt;   - 证明了近似值函数收敛到一个唯一的点，权重迭代收敛到一个集合。&lt;br&gt;&lt;br&gt;6. **局部稳定性**：&lt;br&gt;   - 建立了权重迭代的局部稳定性概念。&lt;br&gt;&lt;br&gt;7. **无需附加假设**：&lt;br&gt;   - 重要的是，研究中没有引入任何其他附加假设，也没有对线性TD算法进行修改。&lt;br&gt;&lt;br&gt;8. **分析关键**：&lt;br&gt;   - 分析的关键在于对线性TD均值常微分方程的有界不变集的全新表征。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Temporal difference (TD) learning with linear function approximation,
+abbreviated as linear TD, is a classic and powerful prediction algorithm in
+reinforcement learning. While it is well understood that linear TD converges
+almost surely to a unique point, this convergence traditionally requires the
+assumption that the features used by the approximator are linearly independent.
+However, this linear independence assumption does not hold in many practical
+scenarios. This work is the first to establish the almost sure convergence of
+linear TD without requiring linearly independent features. In fact, we do not
+make any assumptions on the features. We prove that the approximated value
+function converges to a unique point and the weight iterates converge to a set.
+We also establish a notion of local stability of the weight iterates.
+Importantly, we do not need to introduce any other additional assumptions and
+do not need to make any modification to the linear TD algorithm. Key to our
+analysis is a novel characterization of bounded invariant sets of the mean ODE
+of linear TD.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12135v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biological arrow of time: Emergence of tangled information hierarchies and self-modelling dynamics</title>
+      <link>http://arxiv.org/abs/2409.12029v1</link>
+      <description>&lt;p&gt;作者: ['Mikhail Prokopenko', 'Paul C. W. Davies', 'Michael Harré', 'Marcus Heisler', 'Zdenka Kuncic', 'Geraint F. Lewis', 'Ori Livson', 'Joseph T. Lizier', 'Fernando E. Rosas']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: 30 pages, 13 figures&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究主题**：&lt;br&gt;   - 本研究关注开放式演化，探讨主要演化转变背后的计算和信息处理动态。&lt;br&gt;&lt;br&gt;2. **生物体的视角**：&lt;br&gt;   - 生物体被视为层级动力系统，通过与环境的互动在其相空间中生成规律性。&lt;br&gt;&lt;br&gt;3. **信息模式的编码**：&lt;br&gt;   - 这些新出现的信息模式可以在生物体的组成部分中编码，形成自我建模的“缠结层级”。&lt;br&gt;&lt;br&gt;4. **主要猜想**：&lt;br&gt;   - 当宏观模式在微观组成部分中编码时，会在特定演化阶段产生基本的紧张关系（计算不一致性），即可编码的内容与环境中可能实现的内容之间的矛盾。&lt;br&gt;&lt;br&gt;5. **转变的触发**：&lt;br&gt;   - 解决这些紧张关系会触发演化转变，扩展问题空间，同时在扩展空间中产生新的紧张关系，形成持续的过程。&lt;br&gt;&lt;br&gt;6. **生物复杂化的解释**：&lt;br&gt;   - 生物复杂化可以在哥德尔-图灵-波斯递归理论框架内，从计算理论的角度进行解释，视为计算新颖性的开放式生成。&lt;br&gt;&lt;br&gt;7. **高阶系统的角色**：&lt;br&gt;   - 这一过程可以视为高阶系统进行的元模拟，逐步模拟低阶系统所进行的计算。&lt;br&gt;&lt;br&gt;8. **时间箭头的假设**：&lt;br&gt;   - 这种计算理论的论证为假设生物时间箭头提供了基础。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: We study open-ended evolution by focusing on computational and
+information-processing dynamics underlying major evolutionary transitions. In
+doing so, we consider biological organisms as hierarchical dynamical systems
+that generate regularities in their phase-spaces through interactions with
+their environment. These emergent information patterns can then be encoded
+within the organism's components, leading to self-modelling "tangled
+hierarchies". Our main conjecture is that when macro-scale patterns are encoded
+within micro-scale components, it creates fundamental tensions (computational
+inconsistencies) between what is encodable at a particular evolutionary stage
+and what is potentially realisable in the environment. A resolution of these
+tensions triggers an evolutionary transition which expands the problem-space,
+at the cost of generating new tensions in the expanded space, in a continual
+process. We argue that biological complexification can be interpreted
+computation-theoretically, within the G\"odel--Turing--Post recursion-theoretic
+framework, as open-ended generation of computational novelty. In general, this
+process can be viewed as a meta-simulation performed by higher-order systems
+that successively simulate the computation carried out by lower-order systems.
+This computation-theoretic argument provides a basis for hypothesising the
+biological arrow of time.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12029v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen2.5-Coder Technical Report</title>
+      <link>http://arxiv.org/abs/2409.12186v1</link>
+      <description>&lt;p&gt;作者: ['Binyuan Hui', 'Jian Yang', 'Zeyu Cui', 'Jiaxi Yang', 'Dayiheng Liu', 'Lei Zhang', 'Tianyu Liu', 'Jiajun Zhang', 'Bowen Yu', 'Kai Dang', 'An Yang', 'Rui Men', 'Fei Huang', 'Xingzhang Ren', 'Xuancheng Ren', 'Jingren Zhou', 'Junyang Lin']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 本报告介绍了Qwen2.5-Coder系列，这是对前身CodeQwen1.5的重要升级。&lt;br&gt;&lt;br&gt;2. **模型概述**：&lt;br&gt;   - 该系列包括两个模型：Qwen2.5-Coder-1.5B和Qwen2.5-Coder-7B。&lt;br&gt;&lt;br&gt;3. **模型架构**：&lt;br&gt;   - Qwen2.5-Coder是一个专门针对代码的模型，基于Qwen2.5架构构建，并继续在超过5.5万亿个标记的大规模语料库上进行预训练。&lt;br&gt;&lt;br&gt;4. **数据处理方法**：&lt;br&gt;   - 通过细致的数据清洗、可扩展的合成数据生成和均衡的数据混合，Qwen2.5-Coder展现出出色的代码生成能力，同时保持一般的多功能性。&lt;br&gt;&lt;br&gt;5. **性能评估**：&lt;br&gt;   - 模型在多种代码相关任务上进行了评估，在超过10个基准测试中达到了最先进的（SOTA）性能，包括代码生成、补全、推理和修复，且始终优于同等规模的更大模型。&lt;br&gt;&lt;br&gt;6. **研究与应用影响**：&lt;br&gt;   - Qwen2.5-Coder系列的发布预计将推动代码智能领域的研究边界，并通过其宽松的许可协议，鼓励开发者在实际应用中的广泛采用。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: In this report, we introduce the Qwen2.5-Coder series, a significant upgrade
+from its predecessor, CodeQwen1.5. This series includes two models:
+Qwen2.5-Coder-1.5B and Qwen2.5-Coder-7B. As a code-specific model,
+Qwen2.5-Coder is built upon the Qwen2.5 architecture and continues pretrained
+on a vast corpus of over 5.5 trillion tokens. Through meticulous data cleaning,
+scalable synthetic data generation, and balanced data mixing, Qwen2.5-Coder
+demonstrates impressive code generation capabilities while retaining general
+versatility. The model has been evaluated on a wide range of code-related
+tasks, achieving state-of-the-art (SOTA) performance across more than 10
+benchmarks, including code generation, completion, reasoning, and repair,
+consistently outperforming larger models of the same model size. We believe
+that the release of the Qwen2.5-Coder series will not only push the boundaries
+of research in code intelligence but also, through its permissive licensing,
+encourage broader adoption by developers in real-world applications.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12186v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bundle Adjustment in the Eager Mode</title>
+      <link>http://arxiv.org/abs/2409.12190v1</link>
+      <description>&lt;p&gt;作者: ['Zitong Zhan', 'Huan Xu', 'Zihang Fang', 'Xinpeng Wei', 'Yaoyu Hu', 'Chen Wang']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 捆绑调整（BA）是多种机器人应用中的关键技术，如同时定位与地图构建（SLAM）、增强现实（AR）和测绘。&lt;br&gt;&lt;br&gt;2. **BA的功能**：&lt;br&gt;   - BA优化参数，如相机姿态和3D地标，以使其与观察结果对齐。&lt;br&gt;&lt;br&gt;3. **深度学习的兴起**：&lt;br&gt;   - 随着深度学习在感知系统中的重要性日益增加，迫切需要将BA与深度学习框架集成，以提高可靠性和性能。&lt;br&gt;&lt;br&gt;4. **现有框架的局限**：&lt;br&gt;   - 目前广泛使用的基于C++的BA框架（如GTSAM、g²o和Ceres）与现代深度学习库（如PyTorch）缺乏原生集成，影响了灵活性、适应性、调试方便性和整体实现效率。&lt;br&gt;&lt;br&gt;5. **研究贡献**：&lt;br&gt;   - 本文提出了一种与PyPose无缝集成的急切模式BA框架，提供与PyTorch兼容的高效接口。&lt;br&gt;&lt;br&gt;6. **技术特点**：&lt;br&gt;   - 该方法包括针对二阶优化、李群和李代数操作及线性求解器的GPU加速、可微分和稀疏操作。&lt;br&gt;&lt;br&gt;7. **性能提升**：&lt;br&gt;   - 在GPU上实施的急切模式BA显示出显著的运行时效率，平均加速比为18.5倍、22倍和23倍，分别与GTSAM、g²o和Ceres相比。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Bundle adjustment (BA) is a critical technique in various robotic
+applications, such as simultaneous localization and mapping (SLAM), augmented
+reality (AR), and photogrammetry. BA optimizes parameters such as camera poses
+and 3D landmarks to align them with observations. With the growing importance
+of deep learning in perception systems, there is an increasing need to
+integrate BA with deep learning frameworks for enhanced reliability and
+performance. However, widely-used C++-based BA frameworks, such as GTSAM,
+g$^2$o, and Ceres, lack native integration with modern deep learning libraries
+like PyTorch. This limitation affects their flexibility, adaptability, ease of
+debugging, and overall implementation efficiency. To address this gap, we
+introduce an eager-mode BA framework seamlessly integrated with PyPose,
+providing PyTorch-compatible interfaces with high efficiency. Our approach
+includes GPU-accelerated, differentiable, and sparse operations designed for
+2nd-order optimization, Lie group and Lie algebra operations, and linear
+solvers. Our eager-mode BA on GPU demonstrates substantial runtime efficiency,
+achieving an average speedup of 18.5$\times$, 22$\times$, and 23$\times$
+compared to GTSAM, g$^2$o, and Ceres, respectively.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12190v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning</title>
+      <link>http://arxiv.org/abs/2409.12183v1</link>
+      <description>&lt;p&gt;作者: ['Zayne Sprague', 'Fangcong Yin', 'Juan Diego Rodriguez', 'Dongwei Jiang', 'Manya Wadhwa', 'Prasann Singhal', 'Xinyu Zhao', 'Xi Ye', 'Kyle Mahowald', 'Greg Durrett']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 链式思维（CoT）通过提示是引发大型语言模型（LLM）推理能力的主要方法。&lt;br&gt;&lt;br&gt;2. **研究目的**：&lt;br&gt;   - 分析CoT在什么类型的任务中真正有效。&lt;br&gt;&lt;br&gt;3. **方法论**：&lt;br&gt;   - 进行了定量元分析，涵盖了100多篇使用CoT的论文，并对14个模型在20个数据集上的表现进行了评估。&lt;br&gt;&lt;br&gt;4. **主要发现**：&lt;br&gt;   - CoT在涉及数学或逻辑的任务中表现显著提升，而在其他类型任务中的提升较小。&lt;br&gt;&lt;br&gt;5. **具体数据观察**：&lt;br&gt;   - 在MMLU数据集上，直接生成答案与使用CoT的准确性几乎相同，除非问题或模型的回答中包含等号，表明符号运算和推理的重要性。&lt;br&gt;&lt;br&gt;6. **行为分析**：&lt;br&gt;   - 分析CoT在符号问题上的表现，区分计划与执行，并与工具增强的LLM进行比较。&lt;br&gt;&lt;br&gt;7. **性能比较**：&lt;br&gt;   - CoT的性能提升主要来自于改善符号执行，但相较于使用符号求解器的效果较差。&lt;br&gt;&lt;br&gt;8. **应用建议**：&lt;br&gt;   - CoT可以选择性应用，既能保持性能，又能节省推理成本。&lt;br&gt;&lt;br&gt;9. **未来方向**：&lt;br&gt;   - 研究结果表明，需要超越基于提示的CoT，探索更好利用中间计算的新范式，适用于LLM的广泛应用。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Chain-of-thought (CoT) via prompting is the de facto method for eliciting
+reasoning capabilities from large language models (LLMs). But for what kinds of
+tasks is this extra ``thinking'' really helpful? To analyze this, we conducted
+a quantitative meta-analysis covering over 100 papers using CoT and ran our own
+evaluations of 20 datasets across 14 models. Our results show that CoT gives
+strong performance benefits primarily on tasks involving math or logic, with
+much smaller gains on other types of tasks. On MMLU, directly generating the
+answer without CoT leads to almost identical accuracy as CoT unless the
+question or model's response contains an equals sign, indicating symbolic
+operations and reasoning. Following this finding, we analyze the behavior of
+CoT on these problems by separating planning and execution and comparing
+against tool-augmented LLMs. Much of CoT's gain comes from improving symbolic
+execution, but it underperforms relative to using a symbolic solver. Our
+results indicate that CoT can be applied selectively, maintaining performance
+while saving inference costs. Furthermore, they suggest a need to move beyond
+prompt-based CoT to new paradigms that better leverage intermediate computation
+across the whole range of LLM applications.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12183v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>DynaMo: In-Domain Dynamics Pretraining for Visuo-Motor Control</title>
+      <link>http://arxiv.org/abs/2409.12192v1</link>
+      <description>&lt;p&gt;作者: ['Zichen Jeff Cui', 'Hengkai Pan', 'Aadhithya Iyer', 'Siddhant Haldar', 'Lerrel Pinto']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 模仿学习是训练复杂视觉运动策略的有效工具，但现有方法需要大量专家示范（数百到数千个）以处理高维视觉观察。&lt;br&gt;&lt;br&gt;2. **问题分析**：&lt;br&gt;   - 低数据效率的一个主要原因是视觉表示通常是在非领域数据上预训练的，或是直接通过行为克隆目标训练的。&lt;br&gt;&lt;br&gt;3. **提出的方法**：&lt;br&gt;   - 本研究提出DynaMo，一种新的领域内自监督学习方法，用于学习视觉表示。&lt;br&gt;&lt;br&gt;4. **方法机制**：&lt;br&gt;   - 在给定的专家示范下，DynaMo联合学习潜在逆动力学模型和前向动力学模型，预测潜在空间中的下一个帧，不需要数据增强、对比采样或真实动作的访问。&lt;br&gt;&lt;br&gt;5. **数据需求**：&lt;br&gt;   - DynaMo不需要任何非领域数据，例如互联网数据集或跨实体数据集。&lt;br&gt;&lt;br&gt;6. **实验结果**：&lt;br&gt;   - 在六个模拟和真实环境中，DynaMo学习的表示显著提高了下游模仿学习的性能，超越了以前的自监督学习目标和预训练表示。&lt;br&gt;&lt;br&gt;7. **政策适用性**：&lt;br&gt;   - DynaMo的优势适用于多种策略类别，包括行为变换器、扩散策略、多层感知器（MLP）和最近邻方法。&lt;br&gt;&lt;br&gt;8. **消融实验**：&lt;br&gt;   - 最后，对DynaMo的关键组件进行消融实验，以测量其对下游策略性能的影响。&lt;br&gt;&lt;br&gt;9. **视频展示**：&lt;br&gt;   - 机器人视频可在 [DynaMo 网址](https://dynamo-ssl.github.io) 查看。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Imitation learning has proven to be a powerful tool for training complex
+visuomotor policies. However, current methods often require hundreds to
+thousands of expert demonstrations to handle high-dimensional visual
+observations. A key reason for this poor data efficiency is that visual
+representations are predominantly either pretrained on out-of-domain data or
+trained directly through a behavior cloning objective. In this work, we present
+DynaMo, a new in-domain, self-supervised method for learning visual
+representations. Given a set of expert demonstrations, we jointly learn a
+latent inverse dynamics model and a forward dynamics model over a sequence of
+image embeddings, predicting the next frame in latent space, without
+augmentations, contrastive sampling, or access to ground truth actions.
+Importantly, DynaMo does not require any out-of-domain data such as Internet
+datasets or cross-embodied datasets. On a suite of six simulated and real
+environments, we show that representations learned with DynaMo significantly
+improve downstream imitation learning performance over prior self-supervised
+learning objectives, and pretrained representations. Gains from using DynaMo
+hold across policy classes such as Behavior Transformer, Diffusion Policy, MLP,
+and nearest neighbors. Finally, we ablate over key components of DynaMo and
+measure its impact on downstream policy performance. Robot videos are best
+viewed at https://dynamo-ssl.github.io&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12192v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating the effects of precise mass measurements of Ru and Pd isotopes on machine learning mass modeling</title>
+      <link>http://arxiv.org/abs/2409.12141v1</link>
+      <description>&lt;p&gt;作者: ['W. S. Porter', 'B. Liu', 'D. Ray', 'A. A. Valverde', 'M. Li', 'M. R. Mumpower', 'M. Brodeur', 'D. P. Burdette', 'N. Callahan', 'A. Cannon', 'J. A. Clark', 'D. E. M. Hoff', 'A. M. Houff', 'F. G. Kondev', 'A. E. Lovell', 'A. T. Mohan', 'G. E. Morgan', 'C. Quick', 'G. Savard', 'K. S. Sharma', 'T. M. Sprouse', 'L. Varriano']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: 6 pages, 4 figures&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 原子质量是理解核结构、天体物理学和基本对称性的重要基础量。&lt;br&gt;&lt;br&gt;2. **研究目标**：&lt;br&gt;   - 创建一个预测核结合能的全球模型是一项长期目标，但仍面临重大挑战，因此需要精确的原子质量测量作为模型发展的基准点。&lt;br&gt;&lt;br&gt;3. **实验方法**：&lt;br&gt;   - 在阿贡国家实验室的加利福尼亚稀有同位素繁殖升级设施进行精确质量测量，使用加拿大佩宁阱质谱仪。&lt;br&gt;&lt;br&gt;4. **测量结果**：&lt;br&gt;   - 对同位素$^{108}$Ru、$^{110}$Ru和$^{116}$Pd进行了质量测量，达到相对质量精度$\delta m/m \approx 10^{-8}$。&lt;br&gt;   - 这些测量结果比之前的测量提高了大约一个数量级。&lt;br&gt;&lt;br&gt;5. **数据应用**：&lt;br&gt;   - 新的质量数据与物理可解释的机器学习（PIML）模型结合使用。&lt;br&gt;   - PIML模型通过混合密度神经网络对质量过量进行建模，使用高斯分布的混合。&lt;br&gt;&lt;br&gt;6. **结果分析**：&lt;br&gt;   - 展示了新的质量数据对PIML模型的贝叶斯更新的影响。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='10.1103/PhysRevC.110.034321'&gt;10.1103/PhysRevC.110.034321&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Atomic masses are a foundational quantity in our understanding of nuclear
+structure, astrophysics and fundamental symmetries. The long-standing goal of
+creating a predictive global model for the binding energy of a nucleus remains
+a significant challenge, however, and prompts the need for precise measurements
+of atomic masses to serve as anchor points for model developments. We present
+precise mass measurements of neutron-rich Ru and Pd isotopes performed at the
+Californium Rare Isotope Breeder Upgrade facility at Argonne National
+Laboratory using the Canadian Penning Trap mass spectrometer. The masses of
+$^{108}$Ru, $^{110}$Ru and $^{116}$Pd were measured to a relative mass
+precision $\delta m/m \approx 10^{-8}$ via the phase-imaging
+ion-cyclotron-resonance technique, and represent an improvement of
+approximately an order of magnitude over previous measurements. These mass data
+were used in conjunction with the physically interpretable machine learning
+(PIML) model, which uses a mixture density neural network to model mass
+excesses via a mixture of Gaussian distributions. The effects of our new mass
+data on a Bayesian-updating of a PIML model are presented.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12141v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning</title>
+      <link>http://arxiv.org/abs/2409.12147v1</link>
+      <description>&lt;p&gt;作者: ['Justin Chih-Yao Chen', 'Archiki Prasad', 'Swarnadeep Saha', 'Elias Stengel-Eskin', 'Mohit Bansal']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: 22 pages, code: https://github.com/dinobby/MAgICoRe&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 大语言模型（LLM）的推理可以通过测试时聚合策略来改善，即生成多个样本并在生成样本中进行投票。&lt;br&gt;&lt;br&gt;2. **现有问题**：&lt;br&gt;   - 尽管这些策略提高了性能，但往往会达到饱和点。&lt;br&gt;   - 精细化（Refinement）是一种替代方法，通过使用LLM生成的反馈来提升解的质量，但引入了三大挑战：&lt;br&gt;     1. **过度精细化**：对所有实例均匀进行精细化可能导致过度修正，降低整体性能。&lt;br&gt;     2. **无法定位和解决错误**：LLM自我纠正能力有限，难以识别和修正自身错误。&lt;br&gt;     3. **精细化不足**：确定需要多少次精细化迭代并不简单，过早停止可能导致错误未被处理。&lt;br&gt;&lt;br&gt;3. **提出的新方法**：&lt;br&gt;   - 提出MAgICoRe，旨在通过将问题难度分类为简单或困难来避免过度精细化：&lt;br&gt;     - 对简单问题使用粗粒度聚合解决。&lt;br&gt;     - 对困难问题采用细粒度和迭代的多智能体精细化。&lt;br&gt;&lt;br&gt;4. **错误定位改进**：&lt;br&gt;   - 引入外部逐步奖励模型（RM）分数，以改善错误定位。&lt;br&gt;&lt;br&gt;5. **精细化的有效性**：&lt;br&gt;   - 使用一个包含三个智能体的多智能体循环：&lt;br&gt;     - **Solver**：解决问题的智能体。&lt;br&gt;     - **Reviewer**：基于逐步RM分数生成针对性反馈的智能体。&lt;br&gt;     - **Refiner**：整合反馈的智能体。&lt;br&gt;&lt;br&gt;6. **确保充分精细化**：&lt;br&gt;   - 重新评估更新的解，迭代启动进一步的精细化轮次。&lt;br&gt;&lt;br&gt;7. **性能评估**：&lt;br&gt;   - 在Llama-3-8B和GPT-3.5上评估MAgICoRe，显示其在五个数学数据集上的有效性。&lt;br&gt;   - 仅一次MAgICoRe迭代的效果超越Self-Consistency 3.4%、Best-of-k 3.2%和Self-Refine 4.0%，且使用的样本数量不足一半。&lt;br&gt;&lt;br&gt;8. **持续改进**：&lt;br&gt;   - 与基线的迭代精细化不同，MAgICoRe在更多迭代中继续改进。&lt;br&gt;&lt;br&gt;9. **重要性分析**：&lt;br&gt;   - 消融实验强调了MAgICoRe的RM和多智能体通信的重要性。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='https://github.com/dinobby/magicore'&gt;https://github.com/dinobby/magicore&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Large Language Models' (LLM) reasoning can be improved using test-time
+aggregation strategies, i.e., generating multiple samples and voting among
+generated samples. While these improve performance, they often reach a
+saturation point. Refinement offers an alternative by using LLM-generated
+feedback to improve solution quality. However, refinement introduces 3 key
+challenges: (1) Excessive refinement: Uniformly refining all instances can
+over-correct and reduce the overall performance. (2) Inability to localize and
+address errors: LLMs have a limited ability to self-correct and struggle to
+identify and correct their own mistakes. (3) Insufficient refinement: Deciding
+how many iterations of refinement are needed is non-trivial, and stopping too
+soon could leave errors unaddressed. To tackle these issues, we propose
+MAgICoRe, which avoids excessive refinement by categorizing problem difficulty
+as easy or hard, solving easy problems with coarse-grained aggregation and hard
+ones with fine-grained and iterative multi-agent refinement. To improve error
+localization, we incorporate external step-wise reward model (RM) scores.
+Moreover, to ensure effective refinement, we employ a multi-agent loop with
+three agents: Solver, Reviewer (which generates targeted feedback based on
+step-wise RM scores), and the Refiner (which incorporates feedback). To ensure
+sufficient refinement, we re-evaluate updated solutions, iteratively initiating
+further rounds of refinement. We evaluate MAgICoRe on Llama-3-8B and GPT-3.5
+and show its effectiveness across 5 math datasets. Even one iteration of
+MAgICoRe beats Self-Consistency by 3.4%, Best-of-k by 3.2%, and Self-Refine by
+4.0% while using less than half the samples. Unlike iterative refinement with
+baselines, MAgICoRe continues to improve with more iterations. Finally, our
+ablations highlight the importance of MAgICoRe's RMs and multi-agent
+communication.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12147v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vista3D: Unravel the 3D Darkside of a Single Image</title>
+      <link>http://arxiv.org/abs/2409.12193v1</link>
+      <description>&lt;p&gt;作者: ['Qiuhong Shen', 'Xingyi Yang', 'Michael Bi Mi', 'Xinchao Wang']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: ECCV'2024&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 本研究旨在揭示物体的隐藏维度，仅通过其可见部分的线索。&lt;br&gt;&lt;br&gt;2. **研究目标**：&lt;br&gt;   - 提出Vista3D框架，实现快速且一致的3D生成，时间仅需5分钟。&lt;br&gt;&lt;br&gt;3. **方法论**：&lt;br&gt;   - Vista3D采用两阶段方法：&lt;br&gt;     - **粗糙阶段**：从单一图像快速生成初步几何形状，使用高斯点云（Gaussian Splatting）。&lt;br&gt;     - **细化阶段**：直接从已学习的高斯点云中提取有符号距离函数（Signed Distance Function, SDF），并通过可微分的等值面表示进行优化。&lt;br&gt;&lt;br&gt;4. **质量提升**：&lt;br&gt;   - 通过使用解耦表示，结合两个独立的隐式函数，捕捉物体的可见和隐藏方面，从而提升生成质量。&lt;br&gt;&lt;br&gt;5. **梯度协调**：&lt;br&gt;   - 通过角度扩散先验组合，将2D扩散先验与3D感知扩散先验的梯度进行协调。&lt;br&gt;&lt;br&gt;6. **性能评估**：&lt;br&gt;   - 通过广泛的评估，展示Vista3D在生成3D物体的一致性和多样性之间有效平衡。&lt;br&gt;&lt;br&gt;7. **资源提供**：&lt;br&gt;   - 提供演示和代码，网址为 [GitHub - florinshen/Vista3D](https://github.com/florinshen/Vista3D)。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='https://github.com/florinshen/vista3d'&gt;https://github.com/florinshen/vista3d&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: We embark on the age-old quest: unveiling the hidden dimensions of objects
+from mere glimpses of their visible parts. To address this, we present Vista3D,
+a framework that realizes swift and consistent 3D generation within a mere 5
+minutes. At the heart of Vista3D lies a two-phase approach: the coarse phase
+and the fine phase. In the coarse phase, we rapidly generate initial geometry
+with Gaussian Splatting from a single image. In the fine phase, we extract a
+Signed Distance Function (SDF) directly from learned Gaussian Splatting,
+optimizing it with a differentiable isosurface representation. Furthermore, it
+elevates the quality of generation by using a disentangled representation with
+two independent implicit functions to capture both visible and obscured aspects
+of objects. Additionally, it harmonizes gradients from 2D diffusion prior with
+3D-aware diffusion priors by angular diffusion prior composition. Through
+extensive evaluation, we demonstrate that Vista3D effectively sustains a
+balance between the consistency and diversity of the generated 3D objects.
+Demos and code will be available at https://github.com/florinshen/Vista3D.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12193v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generalized compression and compressive search of large datasets</title>
+      <link>http://arxiv.org/abs/2409.12161v1</link>
+      <description>&lt;p&gt;作者: ['Morgan E. Prior', 'Thomas Howard III', 'Emily Light', 'Najib Ishaq', 'Noah M. Daniels']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 大数据的爆炸性增长需要开发时间和内存上均能进行亚线性扩展的搜索算法。&lt;br&gt;&lt;br&gt;2. **现状分析**：&lt;br&gt;   - 虽然存在独立的压缩算法和搜索算法，但提供两者功能的算法相对较少，而且大多是特定领域的。&lt;br&gt;&lt;br&gt;3. **研究目标**：&lt;br&gt;   - 本文提出panCAKES，一种新颖的压缩搜索方法，能够在压缩数据上执行$k$-NN和$\rho$-NN搜索，仅需解压缩少量相关数据。&lt;br&gt;&lt;br&gt;4. **基本假设**：&lt;br&gt;   - panCAKES假设数据遵循流形假设，利用数据的低维结构实现高效的压缩和搜索。&lt;br&gt;&lt;br&gt;5. **算法通用性**：&lt;br&gt;   - panCAKES对任何距离函数都是通用的，只要两个点之间的距离与存储一个点编码所需的内存成本成正比。&lt;br&gt;&lt;br&gt;6. **适用的距离函数**：&lt;br&gt;   - 该属性适用于许多广泛使用的距离函数，如字符串编辑距离（Levenshtein、Needleman-Wunsch等）和集合相异性度量（Jaccard、Dice等）。&lt;br&gt;&lt;br&gt;7. **基准测试**：&lt;br&gt;   - 在多个数据集上对panCAKES进行基准测试，包括基因组、蛋白组和集合数据。&lt;br&gt;&lt;br&gt;8. **性能比较**：&lt;br&gt;   - 将压缩比与gzip进行比较，并比较同一数据集的压缩与未压缩版本之间的搜索性能。&lt;br&gt;&lt;br&gt;9. **结果**：&lt;br&gt;   - panCAKES实现了接近gzip的压缩比，同时在$k$-NN和$\rho$-NN搜索中提供亚线性时间性能。&lt;br&gt;&lt;br&gt;10. **结论**：&lt;br&gt;    - panCAKES被认为是一个高效的通用算法，适用于遵循流形假设的大型数据集的精确压缩搜索。&lt;br&gt;&lt;br&gt;11. **开源实现**：&lt;br&gt;    - 提供了panCAKES的开源实现，使用Rust编程语言编写。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: The Big Data explosion has necessitated the development of search algorithms
+that scale sub-linearly in time and memory.
+  While compression algorithms and search algorithms do exist independently,
+few algorithms offer both, and those which do are domain-specific.
+  We present panCAKES, a novel approach to compressive search, i.e., a way to
+perform $k$-NN and $\rho$-NN search on compressed data while only decompressing
+a small, relevant, portion of the data.
+  panCAKES assumes the manifold hypothesis and leverages the low-dimensional
+structure of the data to compress and search it efficiently.
+  panCAKES is generic over any distance function for which the distance between
+two points is proportional to the memory cost of storing an encoding of one in
+terms of the other.
+  This property holds for many widely-used distance functions, e.g. string edit
+distances (Levenshtein, Needleman-Wunsch, etc.) and set dissimilarity measures
+(Jaccard, Dice, etc.).
+  We benchmark panCAKES on a variety of datasets, including genomic, proteomic,
+and set data.
+  We compare compression ratios to gzip, and search performance between the
+compressed and uncompressed versions of the same dataset.
+  panCAKES achieves compression ratios close to those of gzip, while offering
+sub-linear time performance for $k$-NN and $\rho$-NN search.
+  We conclude that panCAKES is an efficient, general-purpose algorithm for
+exact compressive search on large datasets that obey the manifold hypothesis.
+  We provide an open-source implementation of panCAKES in the Rust programming
+language.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12161v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Precise Forecasting of Sky Images Using Spatial Warping</title>
+      <link>http://arxiv.org/abs/2409.12162v1</link>
+      <description>&lt;p&gt;作者: ['Leron Julian', 'Aswin C. Sankaranarayanan']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: None&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 太阳能发电的间歇性主要由于云层遮挡，这限制了其在商业和住宅领域的广泛应用。&lt;br&gt;&lt;br&gt;2. **需求**：&lt;br&gt;   - 需要实时预测太阳辐照度，以便在电网连接的光伏系统中合理调度和分配资源。&lt;br&gt;&lt;br&gt;3. **现有方法**：&lt;br&gt;   - 常用的地面成像仪能够捕捉天空的广阔视野图像，以监测特定地点的云层移动，从而预测太阳辐照度。&lt;br&gt;&lt;br&gt;4. **现有成像的局限性**：&lt;br&gt;   - 这些广角成像仪捕获的天空图像存在失真，特别是靠近地平线的区域被严重压缩，影响了对地平线附近云层运动的精确预测，尤其是长时间预测。&lt;br&gt;&lt;br&gt;5. **研究目的**：&lt;br&gt;   - 本研究旨在通过引入深度学习方法，提高未来天空图像帧的预测分辨率，克服现有方法的局限。&lt;br&gt;&lt;br&gt;6. **主要贡献**：&lt;br&gt;   - 开发了一种优化的变形方法，以应对云层在地平线附近的负面影响。&lt;br&gt;   - 构建了一个框架，以更好地预测未来天空图像，并准确判断云层演变，特别是在较长时间范围内。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='10.1109/ICCVW54120.2021.00133'&gt;10.1109/ICCVW54120.2021.00133&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: The intermittency of solar power, due to occlusion from cloud cover, is one
+of the key factors inhibiting its widespread use in both commercial and
+residential settings. Hence, real-time forecasting of solar irradiance for
+grid-connected photovoltaic systems is necessary to schedule and allocate
+resources across the grid. Ground-based imagers that capture wide field-of-view
+images of the sky are commonly used to monitor cloud movement around a
+particular site in an effort to forecast solar irradiance. However, these wide
+FOV imagers capture a distorted image of sky image, where regions near the
+horizon are heavily compressed. This hinders the ability to precisely predict
+cloud motion near the horizon which especially affects prediction over longer
+time horizons. In this work, we combat the aforementioned constraint by
+introducing a deep learning method to predict a future sky image frame with
+higher resolution than previous methods. Our main contribution is to derive an
+optimal warping method to counter the adverse affects of clouds at the horizon,
+and learn a framework for future sky image prediction which better determines
+cloud evolution for longer time horizons.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12162v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disruption of a massive molecular cloud by a supernova in the Galactic Centre: Initial results from the ACES project</title>
+      <link>http://arxiv.org/abs/2409.12185v1</link>
+      <description>&lt;p&gt;作者: ['M. Nonhebel', 'A. T. Barnes', 'K. Immer', 'J. Armijos-Abendaño', 'J. Bally', 'C. Battersby', 'M. G. Burton', 'N. Butterfield', 'L. Colzi', 'P. García', 'A. Ginsburg', 'J. D. Henshaw', 'Y. Hu', 'I. Jiménez-Serra', 'R. S. Klessen', 'F. -H. Liang', 'S. N. Longmore', 'X. Lu', 'S. Martín', 'F. Nogueras-Lara', 'M. A. Petkova', 'J. E. Pineda', 'V. M. Rivilla', 'Á. Sánchez-Monge', 'M. G. Santa-Maria', 'H. A. Smith', 'Y. Sofue', 'M. C. Sormani', 'V. Tolls', 'D. L. Walker', 'Q. D. Wang', 'G. M. Williams', 'F. -W. Xu']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: 17 pages, 13 figures, and 2 tables. Accepted for publication in
+  Astronomy &amp; Astrophysics&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究背景**：&lt;br&gt;   - 银河系的中央分子区（CMZ）与太阳邻域存在显著差异，主要体现在极端的星际介质条件（如高气体、恒星和反馈密度）和强烈的动力学效应（如剪切和气体流入）。&lt;br&gt;&lt;br&gt;2. **独特的物理结构**：&lt;br&gt;   - CMZ内可能存在一些大规模物理结构，这些结构在银河系的其他区域无法形成。&lt;br&gt;&lt;br&gt;3. **研究方法**：&lt;br&gt;   - 本文基于阿塔卡马大型毫米/亚毫米阵列（ALMA）的大规模项目ACES（ALMA CMZ探索调查）提供的新结果，进行多波长和运动学分析。&lt;br&gt;&lt;br&gt;4. **研究对象**：&lt;br&gt;   - 重点分析M0.8$-$0.2环，这是一个具有明显环状形态的分子云。&lt;br&gt;&lt;br&gt;5. **几何特征**：&lt;br&gt;   - 估计M0.8$-$0.2环的投影内外半径分别为79"和154"（相当于3.1 pc和6.1 pc，假设银河中心距离为8.2 kpc）。&lt;br&gt;&lt;br&gt;6. **气体特性**：&lt;br&gt;   - 计算得出平均气体密度大于 $10^{4}$ cm$^{-3}$，质量约为 $10^6$ M$_\odot$，扩展速度约为20 km/s。&lt;br&gt;&lt;br&gt;7. **能量和动量**：&lt;br&gt;   - 估计该结构的动能超过 $10^{51}$ erg，动量超过 $10^7$ M$_\odot$ km/s。&lt;br&gt;&lt;br&gt;8. **可能成因**：&lt;br&gt;   - 讨论了多种可能导致该结构存在和扩展的原因，包括恒星反馈和大规模动力学。&lt;br&gt;&lt;br&gt;9. **主要假设**：&lt;br&gt;   - 提出M0.8$-$0.2环最可能的成因是一次高能超新星爆炸，这次爆炸需要发生在一个密集且非常巨大的分子云内部。&lt;br&gt;&lt;br&gt;10. **超新星的影响**：&lt;br&gt;    - 该结构展示了超新星如何影响分子云的极端例子。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: The Milky Way's Central Molecular Zone (CMZ) differs dramatically from our
+local solar neighbourhood, both in the extreme interstellar medium conditions
+it exhibits (e.g. high gas, stellar, and feedback density) and in the strong
+dynamics at play (e.g. due to shear and gas influx along the bar).
+Consequently, it is likely that there are large-scale physical structures
+within the CMZ that cannot form elsewhere in the Milky Way. In this paper, we
+present new results from the Atacama Large Millimeter/submillimeter Array
+(ALMA) large programme ACES (ALMA CMZ Exploration Survey) and conduct a
+multi-wavelength and kinematic analysis to determine the origin of the
+M0.8$-$0.2 ring, a molecular cloud with a distinct ring-like morphology. We
+estimate the projected inner and outer radii of the M0.8$-$0.2 ring to be 79"
+and 154", respectively (3.1 pc and 6.1 pc at an assumed Galactic Centre
+distance of 8.2 kpc) and calculate a mean gas density $&gt; 10^{4}$ cm$^{-3}$, a
+mass of $\sim$ $10^6$ M$_\odot$, and an expansion speed of $\sim$ 20 km
+s$^{-1}$, resulting in a high estimated kinetic energy ($&gt; 10^{51}$ erg) and
+momentum ($&gt; 10^7$ M$_\odot$ km s$^{-1}$). We discuss several possible causes
+for the existence and expansion of the structure, including stellar feedback
+and large-scale dynamics. We propose that the most likely cause of the
+M0.8$-$0.2 ring is a single high-energy hypernova explosion. To viably explain
+the observed morphology and kinematics, such an explosion would need to have
+taken place inside a dense, very massive molecular cloud, the remnants of which
+we now see as the M0.8$-$0.2 ring. In this case, the structure provides an
+extreme example of how supernovae can affect molecular clouds.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12185v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exoplanet accretion monitoring spectroscopic survey (ENTROPY) I. Evidence for magnetospheric accretion in the young isolated planetary-mass object 2MASS J11151597+1937266</title>
+      <link>http://arxiv.org/abs/2409.12187v1</link>
+      <description>&lt;p&gt;作者: ['Gayathri Viswanath', 'Simon C. Ringqvist', 'Dorian Demars', 'Markus Janson', 'Mickaël Bonnefoy', 'Yuhiko Aoyama', 'Gabriel-Dominique Marleau', 'Catherine Dougados', 'Judit Szulágyi', 'Thanawuth Thanathibodee']&lt;/p&gt;&lt;p&gt;发布时间: 2024-09-18&lt;/p&gt;&lt;p&gt;评论: Accepted for publication at A&amp;A on 2024-09-11. 15 pages, 9 figures, 7
+  tables&lt;/p&gt;&lt;p&gt;GPT 摘要: 以下是对论文摘要的分点解读：&lt;br&gt;&lt;br&gt;1. **研究主题**：&lt;br&gt;   - 行星的聚合过程尚不清楚，缺乏观察和理论研究。&lt;br&gt;&lt;br&gt;2. **研究意义**：&lt;br&gt;   - 检测到来自聚合气体巨行星的发射线有助于深入研究这一过程。&lt;br&gt;&lt;br&gt;3. **研究对象**：&lt;br&gt;   - 本文分析了年轻的行星质量天体2MASS J11151597+1937266，这是少数已观察到发射的行星质量物体之一，质量在7-21 Mj，年龄为5-45 Myr，距离约45±2 pc。&lt;br&gt;&lt;br&gt;4. **观测方法**：&lt;br&gt;   - 使用VLT/UVES获取了目标的第一张高分辨率（R~50,000）光谱，覆盖近紫外到可见波长（3200-6800 Å）。&lt;br&gt;&lt;br&gt;5. **观测结果**：&lt;br&gt;   - 光谱中报告了H3-H6和He I（5875.6 Å）发射线的分辨特征。&lt;br&gt;&lt;br&gt;6. **证据分析**：&lt;br&gt;   - 根据H3和H4的非对称线型，H3的10%宽度为199±1 km/s，初步的He I 6678 Å发射以及中红外（MIR）多余的迹象，确认该物体正在进行聚合。&lt;br&gt;&lt;br&gt;7. **温度和半径修正**：&lt;br&gt;   - 使用Gaia更新的视差数据，修正目标的温度为1816±63 K，半径为1.5±0.1 Rj。&lt;br&gt;&lt;br&gt;8. **模型分析**：&lt;br&gt;   - 通过1D行星表面冲击模型分析观察到的H I谱线，得出预冲击气体速度为v0=120(+80,-40) km/s，预冲击密度为log(n0/cm^-3)=14(+0,-5)。&lt;br&gt;&lt;br&gt;9. **质量估算**：&lt;br&gt;   - 预冲击速度指向目标质量为6(+8,-4) Mj。&lt;br&gt;&lt;br&gt;10. **质量聚合率计算**：&lt;br&gt;    - 结合H I线光度和行星Lline-Lacc标度关系，推导出质量聚合率为1.4(+2.8,-0.9)×10^-8 Mj/yr。&lt;/p&gt;&lt;p&gt;DOI: &lt;a href='None'&gt;None&lt;/a&gt;&lt;/p&gt;&lt;p&gt;repo: &lt;a href='null'&gt;null&lt;/a&gt;&lt;/p&gt;&lt;p&gt;摘要: Accretion among planets is a poorly understood phenomenon, due to lack of
+both observational and theoretical studies. Detection of emission lines from
+accreting gas giants facilitate detailed investigations into this process. This
+work presents a detailed analysis of Balmer lines from one of the few known
+young, planetary-mass objects with observed emission, the isolated L2 dwarf
+2MASS J11151597+1937266 with a mass 7-21 Mj and age 5-45 Myr, located at 45+-2
+pc. We obtained the first high-resolution (R~50,000) spectrum of the target
+with VLT/UVES, a spectrograph in the near-UV to visible wavelengths (3200-6800
+AA). We report resolved H3-H6 and He I (5875.6 AA) emission in the spectrum.
+Based on the asymmetric line profiles of H3 and H4, 10% width of H3 (199+-1
+km/s), tentative He I 6678 AA emission and indications of a disk from MIR
+excess, we confirm ongoing accretion at this object. Using the Gaia update of
+the parallax, we revise its temperature to 1816+-63 K and radius to 1.5+-0.1
+Rj. Analysis of observed H I profiles using 1D planet-surface shock model
+implies a pre-shock gas velocity of v0=120(+80,-40) km/s and a pre-shock
+density of log(n0/cm^-3)=14(+0,-5). Pre-shock velocity points to a mass of
+6(+8,-4) Mj for the target. Combining the H I line luminosities and planetary
+Lline-Lacc scaling relations, we derive a mass accretion rate of
+1.4(+2.8,-0.9)x10^-8 Mj/yr.&lt;/p&gt;</description>
+      <guid isPermaLink="false">2409.12187v1</guid>
+      <pubDate>Thu, 19 Sep 2024 02:57:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
