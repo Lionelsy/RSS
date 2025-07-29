@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Arxiv论文推荐</title>
+    <link>https://github.com/lionelsy/RSS</link>
+    <description>Arxiv论文推荐</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 29 Jul 2025 12:07:49 +0800</lastBuildDate>
+  </channel>
+</rss>
